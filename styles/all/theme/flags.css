@@ -1,0 +1,44 @@
+ul.flags {
+    width:100%;
+    text-align:center;
+	list-style-type: none;
+    background-color: #eef5f9;
+	float: left;
+}
+
+ul.flags li {
+    display: inline-block;
+    font-size: inherit;
+    line-height: inherit;
+	padding-bottom: 2px;
+	width: 110px;
+	white-space: nowrap;
+}
+
+ul.flags li.flagslist {
+    float: left;
+}
+
+.rtl ul.flags li.flagslist {
+    float: right;
+}
+
+div.flags {
+   background-color: #eef5f9;
+}
+
+.flagusers {
+    font-size: 1.2em;
+    line-height: 2.2em;
+    padding: 4px 0;
+}
+
+.memberlist_flags {
+	margin-top: -6px;
+}
+	
+.flag_image {
+	font-size: 12px;
+	height: 32px;
+	vertical-align:middle;
+}

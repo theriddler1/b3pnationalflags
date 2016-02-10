@@ -1,0 +1,17 @@
+{$C_BLOCK_H_L}<!-- IF U_FLAGS --><a href="{U_FLAGS}">{L_NATIONAL_FLAGS}</a><!-- ELSE -->{L_NATIONAL_FLAGS}<!-- ENDIF -->{$C_BLOCK_H_R}
+<ul class="topiclist bg1">
+		<li><dl><dt></dt>
+			<dd class="portal-whois-online-content portal-responsive-show">
+					<li><dl><dt></dt>
+						<ul class="flags">
+						<!-- BEGIN flag -->
+						<li class="bg1 flagslist">
+						<a href="{flag.U_FLAG}">{flag.FLAG}</a><br />{flag.FLAG_USERS}
+						</li>
+					<!-- END flag -->
+				</ul>
+          </dl></li>
+	</dd>
+		</dl></li>
+</ul>
+{$C_BLOCK_F_L}{$C_BLOCK_F_R}

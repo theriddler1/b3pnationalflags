@@ -1,0 +1,13 @@
+services:
+    theriddler.b3pnationalflags.nationalflags:
+        class: theriddler\b3pnationalflags\nationalflags
+        arguments:
+            - @config
+            - @dbal.conn
+            - @template
+            - @user
+            - @rmcgirr83.nationalflags.functions
+            - %core.root_path%
+            - %core.php_ext%
+        tags:
+            - { name: board3.portal.module }
